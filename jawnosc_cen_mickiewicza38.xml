@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Catalog rdf:about="https://mickiewicza38.pl/katalog">
+    <dct:title xml:lang="pl">Jawność cen – ZP1 sp. z o. o. – Mickiewicza 38</dct:title>
+    <dct:description xml:lang="pl">Katalog danych o cenach lokali mieszkalnych zgodnie z ustawą o jawności cen w budownictwie mieszkaniowym.</dct:description>
+    <dct:publisher rdf:resource="https://mickiewicza38.pl/deweloper"/>
+    <dcat:dataset rdf:resource="https://mickiewicza38.pl/dataset/jawnosc-cen"/>
+  </dcat:Catalog>
+  <dcat:Dataset rdf:about="https://mickiewicza38.pl/dataset/jawnosc-cen">
+    <dct:title xml:lang="pl">Jawność cen lokali mieszkalnych – ZP1 sp. z o. o. – inwestycja Mickiewicza 38</dct:title>
+    <dct:description xml:lang="pl">Zbiór danych zawiera informacje o cenach lokali mieszkalnych oferowanych przez ZP1 sp. z o. o. w ramach inwestycji przy ul. Mickiewicza 38 w Michałowicach, w tym ceny za m², powierzchnie, liczbę pokoi oraz dostępność lokali.</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-08</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-08</dct:modified>
+    <dct:publisher rdf:resource="https://mickiewicza38.pl/deweloper"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:spatial rdf:resource="https://www.geonames.org/3090776"/>
+    <dcat:keyword xml:lang="pl">nieruchomości</dcat:keyword>
+    <dcat:keyword xml:lang="pl">ceny</dcat:keyword>
+    <dcat:keyword xml:lang="pl">lokale mieszkalne</dcat:keyword>
+    <dcat:keyword xml:lang="pl">deweloper</dcat:keyword>
+    <dcat:keyword xml:lang="pl">jawność cen</dcat:keyword>
+    <dcat:keyword xml:lang="pl">Michałowice</dcat:keyword>
+    <dcat:keyword xml:lang="pl">mazowieckie</dcat:keyword>
+    <dcat:distribution rdf:resource="https://mickiewicza38.pl/dataset/jawnosc-cen/dist/xml"/>
+    <dcat:distribution rdf:resource="https://mickiewicza38.pl/dataset/jawnosc-cen/dist/xlsx"/>
+  </dcat:Dataset>
+  <dcat:Distribution rdf:about="https://mickiewicza38.pl/dataset/jawnosc-cen/dist/xml">
+    <dct:title xml:lang="pl">Dane XML – jawność cen lokali</dct:title>
+    <dcat:accessURL rdf:resource="https://mickiewicza38.pl/dane/jawnosc_cen_mickiewicza38.xml"/>
+    <dcat:downloadURL rdf:resource="https://mickiewicza38.pl/dane/jawnosc_cen_mickiewicza38.xml"/>
+    <dct:format>XML</dct:format>
+    <dcat:mediaType>application/xml</dcat:mediaType>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-08</dct:issued>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://mickiewicza38.pl/dataset/jawnosc-cen/dist/xlsx">
+    <dct:title xml:lang="pl">Plik XLSX – jawność cen lokali</dct:title>
+    <dcat:accessURL rdf:resource="https://mickiewicza38.pl/dane/Jawnosc_cen.xlsx"/>
+    <dcat:downloadURL rdf:resource="https://mickiewicza38.pl/dane/Jawnosc_cen.xlsx"/>
+    <dct:format>XLSX</dct:format>
+    <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-08</dct:issued>
+  </dcat:Distribution>
+  <foaf:Organization rdf:about="https://mickiewicza38.pl/deweloper">
+    <foaf:name xml:lang="pl">ZP1 sp. z o. o.</foaf:name>
+    <foaf:homepage rdf:resource="https://mickiewicza38.pl/"/>
+    <vcard:hasTelephone>+48509267575</vcard:hasTelephone>
+    <vcard:hasEmail rdf:resource="mailto:kontakt@mickiewicza38.pl"/>
+  </foaf:Organization>
+  <dcat:Resource rdf:about="https://mickiewicza38.pl/dataset/jawnosc-cen/lokal/1">
+    <dct:title xml:lang="pl">Lokal nr 1 – Michałowice, ul. Mickiewicza 38</dct:title>
+    <schema:name xml:lang="pl">ZP1 sp. z o. o.</schema:name>
+    <schema:legalName xml:lang="pl">spółka z o. o.</schema:legalName>
+    <schema:identifier>KRS: 1182606</schema:identifier>
+    <schema:taxID>5214124452</schema:taxID>
+    <schema:identifier>REGON: 542175122</schema:identifier>
+    <schema:telephone>509267575</schema:telephone>
+    <schema:email>kontakt@mickiewicza38.pl</schema:email>
+    <schema:url>https://mickiewicza38.pl/</schema:url>
+    <schema:address xml:lang="pl">woj. mazowieckie, pow. Warszawa, gm. Warszawa, Warszawa, ul. Płatków Róż 2/7, 02-757</schema:address>
+    <schema:locationCreated xml:lang="pl">woj. mazowieckie, pow. pruszkowski, gm. Michałowice, Michałowice, ul. Mickiewicza 38, 05-816</schema:locationCreated>
+    <schema:location xml:lang="pl">woj. mazowieckie, pow. pruszkowski, gm. Michałowice, Michałowice, ul. Mickiewicza 38</schema:location>
+    <schema:contactPoint xml:lang="pl">telefon, e-mail, strona www</schema:contactPoint>
+    <schema:propertyType xml:lang="pl">05-816</schema:propertyType>
+    <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13470.59</schema:price>
+    <schema:priceValidFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-03</schema:priceValidFrom>
+    <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2290000</schema:price>
+    <schema:priceValidFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-03</schema:priceValidFrom>
+    <schema:floorSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</schema:floorSize>
+    <schema:numberOfRooms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:numberOfRooms>
+    <schema:availability xml:lang="pl">Dostępny</schema:availability>
+  </dcat:Resource>
+  <dcat:Resource rdf:about="https://mickiewicza38.pl/dataset/jawnosc-cen/lokal/2">
+    <dct:title xml:lang="pl">Lokal nr 2 – Michałowice, ul. Mickiewicza 38</dct:title>
+    <schema:name xml:lang="pl">ZP1 sp. z o. o.</schema:name>
+    <schema:legalName xml:lang="pl">spółka z o. o.</schema:legalName>
+    <schema:identifier>KRS: 1182606</schema:identifier>
+    <schema:taxID>5214124452</schema:taxID>
+    <schema:identifier>REGON: 542175122</schema:identifier>
+    <schema:telephone>509267575</schema:telephone>
+    <schema:email>kontakt@mickiewicza38.pl</schema:email>
+    <schema:url>https://mickiewicza38.pl/</schema:url>
+    <schema:address xml:lang="pl">woj. mazowieckie, pow. Warszawa, gm. Warszawa, Warszawa, ul. Płatków Róż 2/7, 02-757</schema:address>
+    <schema:locationCreated xml:lang="pl">woj. mazowieckie, pow. pruszkowski, gm. Michałowice, Michałowice, ul. Mickiewicza 38, 31-516</schema:locationCreated>
+    <schema:location xml:lang="pl">woj. mazowieckie, pow. pruszkowski, gm. Michałowice, Michałowice, ul. Mickiewicza 38</schema:location>
+    <schema:contactPoint xml:lang="pl">telefon, e-mail, strona www</schema:contactPoint>
+    <schema:propertyType xml:lang="pl">05-816</schema:propertyType>
+    <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13284.88</schema:price>
+    <schema:priceValidFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-03</schema:priceValidFrom>
+    <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2285000</schema:price>
+    <schema:priceValidFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-03</schema:priceValidFrom>
+    <schema:floorSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</schema:floorSize>
+    <schema:numberOfRooms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:numberOfRooms>
+    <schema:availability xml:lang="pl">Dostępny</schema:availability>
+  </dcat:Resource>
+  <dcat:Resource rdf:about="https://mickiewicza38.pl/dataset/jawnosc-cen/lokal/3">
+    <dct:title xml:lang="pl">Lokal nr 3 – Michałowice, ul. Mickiewicza 38</dct:title>
+    <schema:name xml:lang="pl">ZP1 sp. z o. o.</schema:name>
+    <schema:legalName xml:lang="pl">spółka z o. o.</schema:legalName>
+    <schema:identifier>KRS: 1182606</schema:identifier>
+    <schema:taxID>5214124452</schema:taxID>
+    <schema:identifier>REGON: 542175122</schema:identifier>
+    <schema:telephone>509267575</schema:telephone>
+    <schema:email>kontakt@mickiewicza38.pl</schema:email>
+    <schema:url>https://mickiewicza38.pl/</schema:url>
+    <schema:address xml:lang="pl">woj. mazowieckie, pow. Warszawa, gm. Warszawa, Warszawa, ul. Płatków Róż 2/7, 02-757</schema:address>
+    <schema:locationCreated xml:lang="pl">woj. mazowieckie, pow. pruszkowski, gm. Michałowice, Michałowice, ul. Mickiewicza 38, 31-516</schema:locationCreated>
+    <schema:location xml:lang="pl">woj. mazowieckie, pow. pruszkowski, gm. Michałowice, Michałowice, ul. Mickiewicza 38</schema:location>
+    <schema:contactPoint xml:lang="pl">telefon, e-mail, strona www</schema:contactPoint>
+    <schema:propertyType xml:lang="pl">05-816</schema:propertyType>
+    <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13423.53</schema:price>
+    <schema:priceValidFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-03</schema:priceValidFrom>
+    <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2282000</schema:price>
+    <schema:priceValidFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-03</schema:priceValidFrom>
+    <schema:floorSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</schema:floorSize>
+    <schema:numberOfRooms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:numberOfRooms>
+    <schema:availability xml:lang="pl">Dostępny</schema:availability>
+  </dcat:Resource>
+  <dcat:Resource rdf:about="https://mickiewicza38.pl/dataset/jawnosc-cen/lokal/4">
+    <dct:title xml:lang="pl">Lokal nr 4 – Michałowice, ul. Mickiewicza 38</dct:title>
+    <schema:name xml:lang="pl">ZP1 sp. z o. o.</schema:name>
+    <schema:legalName xml:lang="pl">spółka z o. o.</schema:legalName>
+    <schema:identifier>KRS: 1182606</schema:identifier>
+    <schema:taxID>5214124452</schema:taxID>
+    <schema:identifier>REGON: 542175122</schema:identifier>
+    <schema:telephone>509267575</schema:telephone>
+    <schema:email>kontakt@mickiewicza38.pl</schema:email>
+    <schema:url>https://mickiewicza38.pl/</schema:url>
+    <schema:address xml:lang="pl">woj. mazowieckie, pow. Warszawa, gm. Warszawa, Warszawa, ul. Płatków Róż 2/7, 02-757</schema:address>
+    <schema:locationCreated xml:lang="pl">woj. mazowieckie, pow. pruszkowski, gm. Michałowice, Michałowice, ul. Mickiewicza 38, 31-516</schema:locationCreated>
+    <schema:location xml:lang="pl">woj. mazowieckie, pow. pruszkowski, gm. Michałowice, Michałowice, ul. Mickiewicza 38</schema:location>
+    <schema:contactPoint xml:lang="pl">telefon, e-mail, strona www</schema:contactPoint>
+    <schema:propertyType xml:lang="pl">05-816</schema:propertyType>
+    <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13296.51</schema:price>
+    <schema:priceValidFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-03</schema:priceValidFrom>
+    <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2287000</schema:price>
+    <schema:priceValidFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-03</schema:priceValidFrom>
+    <schema:floorSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</schema:floorSize>
+    <schema:numberOfRooms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:numberOfRooms>
+    <schema:availability xml:lang="pl">Dostępny</schema:availability>
+  </dcat:Resource>
+</rdf:RDF>
