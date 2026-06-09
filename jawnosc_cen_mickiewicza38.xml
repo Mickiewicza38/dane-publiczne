@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:spdx="http://spdx.org/rdf/terms#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
   <dcat:Catalog rdf:about="https://mickiewicza38.pl/katalog">
     <dct:title xml:lang="pl">Jawność cen – ZP1 sp. z o. o. – Mickiewicza 38</dct:title>
     <dct:description xml:lang="pl">Katalog danych o cenach lokali mieszkalnych zgodnie z ustawą o jawności cen w budownictwie mieszkaniowym.</dct:description>
@@ -21,16 +21,22 @@
     <dcat:keyword xml:lang="pl">jawność cen</dcat:keyword>
     <dcat:keyword xml:lang="pl">Michałowice</dcat:keyword>
     <dcat:keyword xml:lang="pl">mazowieckie</dcat:keyword>
-    <dcat:distribution rdf:resource="https://mickiewicza38.pl/dataset/jawnosc-cen/dist/xml"/>
+    <dcat:distribution rdf:resource="https://mickiewicza38.github.io/dane-publiczne/jawnosc_cen_mickiewicza38.xml"/>
     <dcat:distribution rdf:resource="https://mickiewicza38.pl/dataset/jawnosc-cen/dist/xlsx"/>
   </dcat:Dataset>
-  <dcat:Distribution rdf:about="https://mickiewicza38.pl/dataset/jawnosc-cen/dist/xml">
+  <dcat:Distribution rdf:about="https://mickiewicza38.github.io/dane-publiczne/jawnosc_cen_mickiewicza38.xml">
     <dct:title xml:lang="pl">Dane XML – jawność cen lokali</dct:title>
-    <dcat:accessURL rdf:resource="https://mickiewicza38.pl/dane/jawnosc_cen_mickiewicza38.xml"/>
-    <dcat:downloadURL rdf:resource="https://mickiewicza38.pl/dane/jawnosc_cen_mickiewicza38.xml"/>
+    <dcat:accessURL rdf:resource="https://mickiewicza38.github.io/dane-publiczne/jawnosc_cen_mickiewicza38.xml"/>
+    <dcat:downloadURL rdf:resource="https://mickiewicza38.github.io/dane-publiczne/jawnosc_cen_mickiewicza38.xml"/>
     <dct:format>XML</dct:format>
     <dcat:mediaType>application/xml</dcat:mediaType>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-08</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>c6a7304a1e252e67698c96e34b2fc907</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
   </dcat:Distribution>
   <dcat:Distribution rdf:about="https://mickiewicza38.pl/dataset/jawnosc-cen/dist/xlsx">
     <dct:title xml:lang="pl">Plik XLSX – jawność cen lokali</dct:title>
